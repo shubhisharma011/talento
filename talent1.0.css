@@ -136,23 +136,23 @@ body{
     margin-left: 320px;
     border-radius: 15px;
     font-family: fantasy;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }
 .main{
-    font-size: 28px;
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 1px 1px black;
 
 }
 .main-1{
-    font-size: 24px;
-    font-family: fantasy;
+    font-size: 20px;
+    font-family: Georgia,'Times New Roman', Times, serif;
     /* color: yellow; */
 }
 .main-2{
     font-size: 28px;
-    font-family: fantasy;
+    font-family: Georgia,'Times New Roman', Times, serif;
     /* color: yellow; */
 }
 .try{
