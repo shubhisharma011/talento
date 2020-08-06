@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    /* background-color: peachpuff; */
+    /* background-color: white; */
+    background-image: url("heaet.jpg");
+                background-repeat: no-repeat ;
+                background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 25px;
+    margin-bottom: 2px;
+}
+.menu ul li{
+    padding: 0px;
+    list-style-type: none;
+    margin: 0 20px;
+    color: rgb(252, 252, 252);
+    cursor: pointer;
+    text-shadow: 1px 1px darkorange;
+    text-align: center;
+}
+.menu ul li a{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.menu ul li:hover{
+    color: yellow;
+}
+.menu ul li a:hover{
+    color: yellow;
+    /* text-shadow: 1px 1px purple); */
+    /* background: repeating-linear-gradient(red,yellow);
+    border-width: 3px; */
+}
+.um-1{
+    display: none;
+}
+.um-1 ul li:hover{
+    margin-left: -1px;            /*the submenu moves alang with the bottom line*/
+    margin-right: -12px;
+}
+.menu ul li:hover .um-1{
+    display: block;
+    position: absolute;
+    background-color: black;
+    /* margin-right: 100px; */
+    padding-bottom: 10px;
+    
+}
+.menu ul li:hover .um-1 ul{
+    display: block;
+    margin:0px;
+    padding-top: 15px;
+    padding-block-start: -50px;
+    /* padding-left: -55px; */
+
+}
+.menu ul li:hover .um-1 ul li{
+
+    color: yellow;
+    width: 70px;
+    padding: 8px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0px;
+}
+.menu ul li:hover .um-1 ul li:last-child{
+    border-bottom: none;
+} 
+.menu ul li:hover .um-1 ul li a:hover{
+    color:yellow;
+}
+.logo img{
+    width: 50px;
+    margin-top: -15px;
+    margin-right: 6px;
+} 
+/* .active{
+    color: rgb(255, 255, 255) !important; 
+}*/
+.signup-btn{
+    top: 15px;
+    right: 50px;
+    position: absolute;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    border: 2px solid;
+    border-radius: 20px;
+    background-image:radial-gradient(circle at top left,rgb(250, 64, 95),black,rgb(80, 41, 170),red);
+    /* background-image:radial-gradient(circle at top left,orange,rgb(57, 57, 112),rgb(250, 185, 64)); */
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+.signup-btn span{
+    display: block;
+    padding: 8px 20px;
+}
+.signin-btn{
+    top: 15px;
+    right: 190px;
+    position: absolute;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    border: 2px solid;
+    border-radius: 20px;
+    background-image:radial-gradient(circle at top left,rgb(250, 64, 95),black,rgb(80, 41, 170),red);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+.signin-btn span{
+    display: block;
+    padding: 9px 20px;
+}
+.para{
+    padding: 20px 20px 40px 20px;
+    margin-top: 85px;
+    margin-right: 320px;
+    margin-left: 320px;
+    border-radius: 15px;
+    font-family: fantasy;
+    font-size: 25px;
+    color: white;
+}
+.main{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px black;
+
+}
+.main-1{
+    font-size: 24px;
+    font-family: fantasy;
+    /* color: yellow; */
+}
+.main-2{
+    font-size: 28px;
+    font-family: fantasy;
+    /* color: yellow; */
+}
+.try{
+    padding: 20px 20px;
+}
